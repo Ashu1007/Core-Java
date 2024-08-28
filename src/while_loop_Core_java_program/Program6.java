@@ -24,6 +24,6 @@ public class Program6 {
 	
 		
 	}
-
+sc.close();
 	}
 	}
