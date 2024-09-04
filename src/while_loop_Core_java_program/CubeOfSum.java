@@ -6,7 +6,7 @@ public class CubeOfSum {
 		double p=3;
 		double sum=0;
 		
-		while(n<100) {
+		while(n<=100) {
 			sum =sum+ Math.pow(n, p);
 			n++;
 		}
