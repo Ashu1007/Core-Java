@@ -9,6 +9,7 @@ public class Factorial {
 		int n=sc.nextInt();
 		int fact=getfactorial(n);
 		System.out.println("The factorial of "+n+"! is: "+fact);
+		sc.close();
 	}
 	public static int getfactorial(int n) {
 		int fact=1;
