@@ -12,7 +12,7 @@ public class CharacterStringRevers {
 		
 	}
 	public static void printCharacterRevers(String s1) {
-		String rev=" ";
+		String rev="";
 		int i=s1.length()-1;
 		while(i>=0) {
 			rev=rev+s1.charAt(i);
