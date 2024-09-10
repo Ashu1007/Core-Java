@@ -21,7 +21,7 @@ public class CharacterPalindromeString {
         int mid = s1.length() / 2;
         int i = 0;
         while (i < mid) {
-            if (s1.charAt(i) != s1.charAt(s1.length() - 1 - i)) {
+            if (!(s1.charAt(i) == s1.charAt(s1.length() - 1 - i))) {
                 return false;
             }
             i++;
