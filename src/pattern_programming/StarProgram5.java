@@ -9,6 +9,7 @@ public class StarProgram5 {
 		int n=sc.nextInt();
 		printPattern5(n);
 		sc.close();
+		
 	}
 	public static void printPattern5(int n) {
 		int mid=n/2+1;

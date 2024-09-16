@@ -9,6 +9,7 @@ public class StarProgram3 {
 		int n=sc.nextInt();
 		printStar3(n);
 		sc.close();
+		
 	}
 	public static void printStar3(int n) {
 		for(int i=1;i<=n;i++) {

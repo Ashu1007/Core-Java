@@ -13,6 +13,7 @@ public class StarProgram2 {
 	public static void StarSquarePrint(int n) {
 		for(int i=1;i<=n;i++) {
 			System.out.print("* ");
+	
 		}
 	}
 
